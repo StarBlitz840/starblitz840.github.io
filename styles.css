@@ -21,7 +21,6 @@ p {
    font-family: "Bahnschrift", sans-serif;
     font-weight: 350;
     overflow: hidden;
-    max-width: 60%;
     text-overflow: ellipsis;
     width: fit-content;
     white-space: nowrap;
