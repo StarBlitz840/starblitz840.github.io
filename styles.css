@@ -20,9 +20,6 @@ p {
    text-align: center;
    font-family: "Bahnschrift", sans-serif;
     font-weight: 350;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: fit-content;
     white-space: nowrap;
 }
 .title_wl {
