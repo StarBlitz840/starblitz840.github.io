@@ -1,3 +1,2 @@
 ErrorDocument 404 /404.html
-RewriteCond %{HTTP_HOST} ^starblitz840.github.io
-RewriteRule ^(.*) https://starblitz.github.io [P]
+

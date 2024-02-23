@@ -19,6 +19,10 @@ favicon.ico - website icon
 
 m [something].html - mobile version of a page
 
+mstyles.css - styles for mobile
+
+mapp.js - mobile functions
+
 index.html - main page
 
 styles.css - styles for all pages

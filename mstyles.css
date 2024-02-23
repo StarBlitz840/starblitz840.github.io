@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    animation: slideIn 1s ease forwards, slideOut 1s ease forwards 2.5s;
+}
+
+.logo {
+    position: fixed;
+    top: -500px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 1s ease forwards 1s, disappear 0.5s ease forwards 2s;
+    z-index: 10000;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        top: -100px;
+    }
+    50% {
+        top: 50%;
+    }
+    100% {
+        top: 40%;
+    }
+}
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
