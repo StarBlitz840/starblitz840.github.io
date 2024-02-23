@@ -7,7 +7,7 @@ imgs - image files
 
 index.html - main page
 
-styles.css - styles for the main page
+styles.css - styles for all pages
 
 app.js - functions
 # Usage

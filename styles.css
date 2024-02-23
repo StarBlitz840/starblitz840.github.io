@@ -1,6 +1,52 @@
 body {
     background-color: #1a1a1a;
 }
+.ferr {
+    position: relative;
+    top: -100px;
+}
+.ev3robot {
+
+    position: relative;
+    top: -100px;
+}
+.err {
+    color: red;
+    position: relative;
+    font-size: 300px;
+}
+.pa {
+    color: yellow;
+}
+.beep {
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+h1 {
+    font-size: 75px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    color: #F8DE22;
+    position: relative;
+    top: -200px
+}
+.spacer {
+    height: 300px;
+    display: block;
+}
+.cr, .github {
+    font-size: 20px;
+}
+.cr {
+    color: #41b347;
+}
+#footer {
+    position:fixed;
+    height:30px;
+    width:100%;
+    background:#999;
+}
 button {
 
     padding: 9px 25px;
