@@ -1,3 +1,6 @@
+setTimeout(function() {
+    $('#cover').hide();
+}, 1000);
 
 function about() {
     location.href ="/about"
