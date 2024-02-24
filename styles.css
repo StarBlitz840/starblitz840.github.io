@@ -2,6 +2,10 @@
     visibility: hidden;
     position: fixed;
 }
+.menu-btn {
+    visibility: hidden;
+    position: fixed;
+}
 body {
     background-color: #1a1a1a;
 }

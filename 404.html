@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mstyles.css">
     <script src="app.js"></script>
     <meta property="og:title" content="StarBlitz #840 | FLL Team"/>
     <meta property="og:description" content="We are StarBlitz #840 - a FIRST Lego League Team of 10 kids from Hakfar Hayarok, Israel"/>
@@ -16,30 +17,22 @@
 </head>
 <body>
 <header>
-    <img src="https://static.wixstatic.com/media/919525_4dda75df3f9b4c1cb3b51e8add40da36~mv2.png/v1/crop/x_0,y_181,w_2500,h_2137/fill/w_98,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gsa-black.png" alt="gsa-black.png" style="width:98px;height:83px;">
+    <img class="gsa" src="https://static.wixstatic.com/media/919525_4dda75df3f9b4c1cb3b51e8add40da36~mv2.png/v1/crop/x_0,y_181,w_2500,h_2137/fill/w_98,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/gsa-black.png" alt="gsa-black.png" style="width:98px;height:83px;">
     <img class="logo" src="imgs/StarBlitz%20Logo.png" alt="logo" onclick="home()">
     <nav>
         <ul class="nav__links">
             <li><a href="/about">About</a></li>
             <li><a href="/links">Links</a></li>
             <li><a href="/team">Team</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
-    <a class="cta" href="#">Contact</a>
-    <p class="menu cta">Menu</p>
 </header>
-<div class="overlay">
-    <a class="close">&times;</a>
-    <div class="overlay__content">
-        <a href="#">About</a>
-        <a href="#">Links</a>
-        <a href="#">Team</a>
-    </div>
-</div>
 <br><br><br><br>
 <center><p class="beep">Beep Beep.. Boop Boop</p> </center>
 <center><h1 class="err">Error 404</h1> </center>
-<p class="pa">We CTRL+F far and wide but couldnt find the requested page :(</p>
+<p class="pa">We CTRL+F far and wide but couldn't find the requested page :(</p>
+<p class="pam">We CTRL+F far and wide but <br>couldn't find the requested page :(</p>
 <img class="ev3robot" src="imgs/robotev3.png">
 <footer class="ferr">
     <p class="cr">© 2024 Hakfar Hayarok robotics team - StarBlitz </p>
