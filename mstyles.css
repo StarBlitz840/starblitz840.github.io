@@ -3,13 +3,15 @@
         visibility: hidden;
     }
     .paboutm {
+        visibility: visible;
         position: relative;
-        top: -500px;
+        top: -550px;
         font-size: 18px;
     }
     .cra {
+        visibility: visible;
         position: relative;
-        top: -510px;
+        top: -570px;
         font-size: 16px;
         color: #41b347;
     }
@@ -20,8 +22,9 @@
         overflow: visible;
     }
     .githuba {
+        visibility: visible;
         position: relative;
-        top: -510px;
+        top: -570px;
         font-size: 18px;
     }
     .beep {
@@ -37,6 +40,7 @@
         visibility: hidden;
     }
     .pam {
+        visibility: visible;
         position: relative;
         top: -90px;
         color: yellow;

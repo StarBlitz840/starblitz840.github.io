@@ -2,6 +2,18 @@
     visibility: hidden;
     position: fixed;
 }
+.pam {
+    visibility: hidden;
+    position: fixed;
+}
+.paboutm {
+    visibility: hidden;
+    position: fixed;
+}
+.pabout {
+    position: relative;
+    top: -100px;
+}
 .menu-btn {
     visibility: hidden;
     position: fixed;
@@ -49,6 +61,10 @@ h1 {
 }
 .cr {
     color: #41b347;
+}
+.cra, .githuba {
+    visibility: hidden;
+    position: fixed;
 }
 #footer {
     position:fixed;
