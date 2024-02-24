@@ -13,6 +13,12 @@
         font-size: 16px;
         color: #41b347;
     }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: visible;
+    }
     .githuba {
         position: relative;
         top: -510px;
