@@ -17,7 +17,8 @@
         animation: slideIn 1s ease forwards, slideOut 1s ease forwards 2.5s;
     }
 
-    .logo {
+    .logoa {
+        visibility: visible;
         position: fixed;
         top: -500px;
         left: 50%;
