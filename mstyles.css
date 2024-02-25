@@ -1,4 +1,8 @@
 @media only screen and (max-width: 480px) {
+    .text {
+    position: relative;
+    bottom: 0px;
+}
     .app {
         display: block;
         margin-left: auto;
