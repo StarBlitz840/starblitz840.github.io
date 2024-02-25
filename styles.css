@@ -2,9 +2,6 @@
     visibility: hidden;
     position: fixed;
 }
-.sabout {
-    font-size: 20px;
-}
 .pam {
     visibility: hidden;
     position: fixed;
@@ -91,12 +88,11 @@ button:hover {
     background-color: #CB83CA;
 }
 p {
-    font-size: 30px;
+   font-size: 20px;
    color: white;
    text-align: center;
    font-family: "Bahnschrift", sans-serif;
     font-weight: 350;
-    white-space: nowrap;
 }
 .title_wl {
     position: relative;
