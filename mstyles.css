@@ -3,6 +3,10 @@
     position: relative;
     bottom: 0px;
 }
+footer {
+    position: relative;
+    top: -300px;
+}
     .app {
         display: block;
         margin-left: auto;
