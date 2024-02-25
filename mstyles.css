@@ -5,6 +5,7 @@
 }
     .spacer {
         visibility: hidden;
+        position: fixed;
 }
     .app {
         display: block;
