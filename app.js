@@ -6,6 +6,10 @@ setTimeout(function() {
     $('#logoa').hide();
 }, 4000);
 
+setTimeout(function() {
+    $('#overlaya').hide();
+}, 4000);
+
 function about() {
     location.href ="/about"
 }
