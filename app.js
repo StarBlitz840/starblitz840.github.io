@@ -8,7 +8,7 @@ setTimeout(function() {
 
 setTimeout(function() {
     $('#overlaya').hide();
-}, 4000);
+}, 3300);
 
 function about() {
     location.href ="/about"
