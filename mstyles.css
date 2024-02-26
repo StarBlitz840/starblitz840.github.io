@@ -3,6 +3,10 @@
     position: relative;
     bottom: 0px;
 }
+    .spacerta {
+        height: 700px;
+        display: block;
+    }
     .spacer {
         visibility: hidden;
         position: fixed;
