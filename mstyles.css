@@ -4,11 +4,11 @@
     bottom: 0px;
 }
     .spacera {
-        height: 80px;
+        height: 70px;
         display: block;
     }
     .spacerb {
-        height: 30px;
+        height: 400px;
         display: block;
     }
     .spacer {
@@ -22,6 +22,7 @@
 }
     .pabout {
         visibility: hidden;
+        position: fixed;
     }
     .paboutm {
         visibility: visible;
