@@ -3,8 +3,12 @@
     position: relative;
     bottom: 0px;
 }
-    .spacerta {
-        height: 700px;
+    .spacera {
+        height: 80px;
+        display: block;
+    }
+    .spacerb {
+        height: 30px;
         display: block;
     }
     .spacer {
